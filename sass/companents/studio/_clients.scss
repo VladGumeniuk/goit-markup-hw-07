@@ -1,0 +1,33 @@
+.client-position {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-link {
+  display: flex;
+  align-items: center;
+  content: "";
+  width: 170px;
+  height: 90px;
+
+  color: #afb1b8;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-link:hover,
+.client-link:focus {
+  color: $color-base;
+  border: 1px solid $color-base;
+}
+
+.svgclient {
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
