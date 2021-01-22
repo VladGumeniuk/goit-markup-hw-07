@@ -7,19 +7,19 @@
 .about-position {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
-}
 
-.about-position::before {
-  display: block;
-  content: "";
-  height: 120px;
+  &-::before {
+    display: block;
+    content: "";
+    height: 120px;
 
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 
-  background: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
+    background: #f5f4fa;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+  }
 }
 
 .about-position:nth-child(1)::before {

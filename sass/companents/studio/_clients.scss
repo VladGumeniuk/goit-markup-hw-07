@@ -18,12 +18,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client-link:hover,
-.client-link:focus {
-  color: $color-base;
-  border: 1px solid $color-base;
+  &-:hover,
+  &-:focus {
+    color: $color-base;
+    border: 1px solid $color-base;
+  }
 }
 
 .svgclient {
